@@ -1,0 +1,18 @@
+#Nombre: Cesar Charalla 20150370B
+#Respuesta a):
+mtcars[-1:4, ] el error es el valor negativo -1, porque solamente 0's pueden ser mezclados con subscritos negativos o cambiar ese valor negativo por otro valor positivo 
+mtcars[mtcars$cy1<=5] no se especifica el numero de columnas que debe de tener el data frame. Solo menciona que tiene 32 columnas.
+
+#Respuesta b):
+como x <- 1:5 nos muestra una cadena de elementos del 1 al 5, y x[NA] pide a la cadena los elementos invaluables. Entonces el codigo analñiza cada elemento de la cadena y como todos son elementos valuables, se produce 5 valores NA.
+  
+#Respuesta c):
+mtcars[1:20] se diferencia de mtcars[1:20,]  en que no especifica el numero de columnas que debe tener.
+
+#Respuesta d):
+df [is.na (df)] <-0 crea la siguiente matriz de orden 4x3 :
+  x y
+1 1 5
+2 2 6
+3 3 7 
+cuyos elementos son: 1,2,3,5,6,7. Al cambiar el 0 por otro valor la matriz se mantiene con sus elementos iniciales.

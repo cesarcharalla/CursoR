@@ -1,0 +1,16 @@
+#Respuesta4: ejecutamos los codigos y 
+#analizamos las propiedades que nos muestran.
+a)
+f1 <- function(x = {y<- 1;2}, y = 0) {
+  x+y
+}
+f1()
+#ejecutando el codigo:
+> f1 <- function(x = {y<- 1;2}, y = 0) {
++   x+y
++ }
+> f1()
+[1] 3
+#el codigo nos muestra la suma de elementos de los valores que toma x.
+b)
+
